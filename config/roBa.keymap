@@ -68,8 +68,8 @@
         default_layer {
             bindings = <
 &kp Q             &kp L         &kp U         &kp COMMA                    &kp PERIOD                                                       &kp F          &kp U  &kp R  &kp Y               &kp P
-&kp E             &kp I         &kp A         &kp O                        &kp LC(MINUS)  &kp LS(LG(S))                      &kp MINUS      &kp K          &kp T  &kp N  &kp S               &kp H
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp SEMI       &kp COLON                          &kp SEMICOLON  &kp G          &kp D  &kp M  &lt_to_layer_0 5 J  &kp BACKSPACE
+&kp E             &kp I         &kp A         &kp O                        &kp LC(MINUS)  &none                              &kp MINUS      &kp K          &kp T  &kp N  &kp S               &kp H
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp SEMI       &kp COLON                          &kp SEMICOLON  &kp G          &kp D  &kp M  &lt_to_layer_0 5 J  &lt_to_layer_0 1 B
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_4  &lt 2 SPACE    &lt_to_layer_0 3 INT_MUHENKAN      &lt 1 ENTER    &kp BACKSPACE                                    &mt RIGHT_SHIFT ESCAPE
             >;
 
@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans   &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp TAB  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans   &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans   &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
             >;
         };
 
