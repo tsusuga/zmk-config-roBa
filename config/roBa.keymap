@@ -37,13 +37,13 @@
         };
 
         lang_us  {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <14 15>;
             bindings = <&kp LANG2>;
         };
 
         lang_kana  {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <20 21>;
             bindings = <&kp LANG1>;
         };
