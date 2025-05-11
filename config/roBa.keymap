@@ -51,10 +51,12 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
         to_layer_0_tap: to_layer_0_tap {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 0 &macro_tap &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 0>, <&macro_tap>, <&kp MACRO_PLACEHOLDER>;
+
             label = "TO_LAYER_0_tap";
         };
     };
@@ -68,6 +70,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
         lt_to_layer_0_tap: lt_to_layer_0_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0_tap";
@@ -83,10 +86,10 @@
 
         default_layer {
             bindings = <
-&kp Q                    &kp L         &kp U         &kp COMMA                    &kp PERIOD                                                                   &kp F          &kp W               &kp R  &kp Y  &kp P
-&mt LEFT_CONTROL E       &kp I         &kp A         &kp O                        &kp MINUS                      &none                       &kp LESS_THAN     &kp K          &kp T               &kp N  &kp S  &lt 3 H
-&mt LEFT_SHIFT Z         &kp X         &kp C         &kp V                        &kp SEMI                       &kp PLUS                    &kp GREATER_THAN  &kp G          &lt_to_layer_0 5 D  &kp M  &kp J  &lt_to_layer_0 1 B
-&mt LEFT_CONTROL ESCAPE  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG_HANJA  &lt_to_layer_0 3 LANG_HANGEUL  &lt_to_layer_0 2 SPACE      &lt 1 ENTER       &kp BACKSPACE                                    &mt RIGHT_SHIFT SLASH
+&kp Q                    &kp L                                 &kp U         &kp COMMA                    &kp PERIOD                                                                   &kp F          &kp W               &kp R  &kp Y  &kp P
+&mt LEFT_CONTROL E       &kp I                                 &kp A         &kp O                        &kp MINUS                      &none                       &kp LESS_THAN     &kp K          &kp T               &kp N  &kp S  &lt 3 H
+&mt LEFT_SHIFT Z         &kp X                                 &kp C         &kp V                        &kp SEMI                       &kp PLUS                    &kp GREATER_THAN  &kp G          &lt_to_layer_0 5 D  &kp M  &kp J  &lt_to_layer_0 1 B
+&mt LEFT_CONTROL ESCAPE  &lt_to_layer_0_tap LEFT_WIN LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG_HANJA  &lt_to_layer_0 3 LANG_HANGEUL  &lt_to_layer_0 2 SPACE      &lt 1 ENTER       &kp BACKSPACE                                    &mt RIGHT_SHIFT SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
