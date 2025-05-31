@@ -77,10 +77,10 @@
 
         default_layer {
             bindings = <
-&kp Q                    &kp L     &kp U         &kp COMMA                    &kp PERIOD                                                                   &kp F          &kp W    &kp R  &lt 4 Y  &kp P
-&mt LEFT_CONTROL E       &kp I     &kp A         &kp O                        &kp MINUS                      &none                       &kp LESS_THAN     &kp K          &lt 4 T  &kp N  &kp S    &lt 3 H
-&mt LEFT_SHIFT Z         &kp X     &kp C         &kp V                        &kp SEMI                       &kp PLUS                    &kp GREATER_THAN  &kp G          &lt 5 D  &kp M  &kp J    &lt_to_layer_0 1 B
-&mt LEFT_CONTROL ESCAPE  &kp LCMD  &kp LEFT_ALT  &lt_to_layer_0 6 LANG_HANJA  &lt_to_layer_0 3 LANG_HANGEUL  &lt_to_layer_0 2 SPACE      &lt 1 ENTER       &kp BACKSPACE                           &mt RIGHT_SHIFT SLASH
+&kp Q               &kp L     &kp U         &kp COMMA                    &kp PERIOD                                                             &kp F          &kp W    &kp R  &lt 4 Y  &kp P
+&mt LEFT_CONTROL E  &kp I     &kp A         &kp O                        &kp MINUS                      &none                 &kp LESS_THAN     &kp K          &lt 4 T  &kp N  &kp S    &lt 3 H
+&mt LEFT_SHIFT Z    &kp X     &kp C         &kp V                        &kp SEMI                       &kp PLUS              &kp GREATER_THAN  &kp G          &lt 5 D  &kp M  &kp J    &lt_to_layer_0 1 B
+&lt 6 ESCAPE        &kp LCMD  &kp LEFT_ALT  &lt_to_layer_0 2 LANG_HANJA  &lt_to_layer_0 3 LANG_HANGEUL  &mt LSHIFT SPACE      &lt 1 ENTER       &kp BACKSPACE                           &mt RIGHT_SHIFT SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
