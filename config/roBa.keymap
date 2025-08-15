@@ -97,10 +97,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1                &kp N2             &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                              &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9          &kp NUMBER_0
-&kp EXCLAMATION             &kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR    &kp PERCENT   &none          &trans       &kp AMPERSAND     &kp SINGLE_QUOTE   &kp ASTRK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&mt LEFT_SHIFT KP_NUMBER_0  &kp BACKSLASH      &kp UNDER     &kp AT        &kp PERIOD    &kp EQUAL      &trans       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp QUESTION
-&trans                      &trans             &trans        &trans        &trans        &trans         &lt 1 ENTER  &trans                                                                     &kp PIPE
+&kp NUMBER_1                &kp N2             &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                              &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9          &kp NUMBER_0
+&kp EXCLAMATION             &kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR    &kp PERCENT   &none          &trans       &kp AMPERSAND     &kp SINGLE_QUOTE   &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&mt LEFT_SHIFT KP_NUMBER_0  &kp BACKSLASH      &kp UNDER     &kp AT        &kp PERIOD    &kp EQUAL      &trans       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION
+&trans                      &trans             &trans        &trans        &trans        &trans         &lt 1 ENTER  &trans                                                                    &kp PIPE
             >;
         };
 
