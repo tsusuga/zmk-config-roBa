@@ -23,7 +23,7 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            key-positions = <23 24>;
         };
 
         eq {
@@ -33,7 +33,7 @@
 
         lang_us {
             timeout-ms = <50>;
-            key-positions = <12 25>;
+            key-positions = <12 13>;
             bindings = <&kp LANG2>;
         };
 
