@@ -108,7 +108,7 @@
         SYM {
             bindings = <
 &kp EXCLAMATION             &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT                      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
-&kp EXCLAMATION             &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &none       &trans  &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN
+&none                       &none              &none     &none       &none        &none       &trans  &none          &none             &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none
 &mt LEFT_SHIFT KP_NUMBER_0  &none              &none     &none       &none        &none       &trans  &none          &none             &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH
 &trans                      &trans             &trans    &trans      &trans       &trans      &trans  &trans                                                                        &kp PIPE
             >;
