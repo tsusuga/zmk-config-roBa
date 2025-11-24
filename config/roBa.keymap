@@ -70,10 +70,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp L         &kp U         &kp COMMA                    &kp PERIOD                                                             &kp F                    &kp W    &kp R  &lt 4 Y  &kp P
-&mt LEFT_CONTROL E  &kp I         &kp A         &kp O                        &kp MINUS                      &kp PLUS              &kp LESS_THAN     &kp K                    &lt 4 T  &kp N  &kp S    &lt 4 H
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                        &kp SEMI                       &kp EQUAL             &kp GREATER_THAN  &kp G                    &lt 5 D  &kp M  &kp J    &kp B
-&lt 6 ESCAPE        &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 LANG_HANJA  &lt_to_layer_0 1 LANG_HANGEUL  &mt LSHIFT SPACE      &lt 2 ENTER       &mt RIGHT_ALT BACKSPACE                           &mt RIGHT_SHIFT SLASH
+&kp Q               &kp L         &kp U         &kp COMMA                    &kp PERIOD                                                        &kp F                    &kp W    &kp R  &lt 4 Y  &kp P
+&mt LEFT_CONTROL E  &kp I         &kp A         &kp O                        &kp MINUS                      &none                 &none        &kp K                    &lt 4 T  &kp N  &kp S    &lt 4 H
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                        &kp SEMI                       &none                 &none        &kp G                    &lt 5 D  &kp M  &kp J    &kp B
+&lt 6 ESCAPE        &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 LANG_HANJA  &lt_to_layer_0 1 LANG_HANGEUL  &mt LSHIFT SPACE      &lt 2 ENTER  &mt RIGHT_ALT BACKSPACE                           &mt RIGHT_SHIFT SLASH
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
