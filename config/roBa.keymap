@@ -70,10 +70,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp L         &kp U         &kp COMMA                    &kp PERIOD                                                        &kp F                    &kp W    &kp R  &lt 4 Y  &kp P
-&mt LEFT_CONTROL E  &kp I         &kp A         &mt LEFT_CONTROL O           &kp MINUS                      &none                 &none        &kp K                    &lt 4 T  &kp N  &kp S    &lt 4 H
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                        &kp SEMI                       &none                 &none        &kp G                    &lt 5 D  &kp M  &kp J    &kp B
-&lt 6 ESCAPE        &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 LANG_HANJA  &lt_to_layer_0 2 LANG_HANGEUL  &mt LSHIFT SPACE      &lt 1 ENTER  &mt RIGHT_ALT BACKSPACE                           &kp QUESTION
+&kp Q               &kp L         &kp U         &kp COMMA                    &kp PERIOD                                                   &kp F                    &kp W    &kp R  &lt 4 Y  &kp P
+&mt LEFT_CONTROL E  &kp I         &kp A         &mt LEFT_CONTROL O           &kp MINUS                      &none            &none        &kp K                    &lt 4 T  &kp N  &kp S    &lt 4 H
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                        &kp SEMI                       &none            &none        &kp G                    &lt 5 D  &kp M  &kp J    &kp B
+&lt 6 ESCAPE        &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 LANG_HANJA  &lt_to_layer_0 2 LANG_HANGEUL  &lt 7 SPACE      &lt 1 ENTER  &mt RIGHT_ALT BACKSPACE                           &kp QUESTION
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -137,10 +137,10 @@
 
         UPPER_CASE {
             bindings = <
-&kp LS(Q)  &kp LS(L)  &kp LS(U)  &trans     &trans                      &kp LS(F)  &kp LS(W)  &kp LS(R)  &kp LS(Y)  &kp LS(P)
-&kp LS(E)  &kp LS(I)  &kp LS(A)  &kp LS(O)  &trans  &trans      &trans  &kp LS(K)  &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(H)
-&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &trans  &trans      &trans  &kp LS(G)  &kp LS(D)  &kp LS(M)  &kp LS(J)  &kp LS(B)
-&trans     &trans     &trans     &trans     &trans  &trans      &trans  &trans                                      &trans
+&kp LS(Q)  &kp LS(L)  &kp LS(U)  &trans     &trans                             &kp LS(F)      &kp LS(W)  &kp LS(R)  &kp LS(Y)  &kp LS(P)
+&kp LS(E)  &kp LS(I)  &kp LS(A)  &kp LS(O)  &trans  &trans      &trans         &kp LS(K)      &kp LS(T)  &kp LS(N)  &kp LS(S)  &kp LS(H)
+&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &trans  &trans      &trans         &kp LS(G)      &kp LS(D)  &kp LS(M)  &kp LS(J)  &kp LS(B)
+&trans     &trans     &trans     &trans     &trans  &trans      &kp LS(ENTER)  &kp BACKSPACE                                   &trans
             >;
         };
     };
